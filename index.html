@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure >
+          <img src="./assets/images/me3.png" alt="Richard hanrick" width="200">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Eya Adouni</h1>
+
+          <p class="title">FullStack MERN Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">eyaadouni03@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+(216) 52 371 477</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birth Date</p>
+
+              <time datetime="1982-06-23">March 11, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Address</p>
+
+              <address>Elgasser, Elhamma, Gabés</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+  I’m <strong>Eya Adouni</strong>, a 21-year-old Full-Stack Developer from Gabès, Tunisia, specialized in <strong>MERN, PHP, Laravel, JavaScript, and MySQL</strong>. With a strong background in both web and mobile development, I also focus on system maintenance, performance optimization, and clean design.
+</p>
+
+<p>
+  A graduate in <strong>Information Systems Development</strong>, currently pursuing a Master’s in <strong>Telecommunications</strong>, I work as an independent developer and researcher. I build functional, user-centered applications and websites — from concept to deployment — while ensuring smooth performance, maintenance, and UI/UX precision.
+</p>
+
+<p>
+  As a passionate freelancer, I design and deliver digital solutions, solve complex technical issues, and bring innovation into every line of code. I’ve explored over 6 research articles in fields like IoT, big data, and cloud computing, and turned them into working projects. 
+</p>
+
+<p>
+  Outside of tech, I run my own handmade bag brand, where creativity meets entrepreneurship. I'm also deeply fascinated by astronomy — a curiosity that has inspired me since childhood and continues to shape the way I approach science and technology.
+</p>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What do I do?</h3>
+        
+          <ul class="service-list">
+        
+            <li class="service-item">
+        
+              <div class="service-icon-box">
+                <img src="./assets/images/ieee.png" alt="design icon" width="80">
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IEEE Member</h4>
+        
+                <p class="service-item-text">
+                 I hold the position of General Secretary of the IEEE student branch at ISET Djerba.
+                </p>
+              </div>
+        
+            </li>
+        
+            <li class="service-item">
+        
+              <div class="service-icon-box">
+                <img src="./assets/images/web.png" alt="web development icon" width="80">
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+        
+                <p class="service-item-text">
+                  High quality website development at a professional level.
+                </p>
+              </div>
+        
+            </li>
+        
+            <li class="service-item">
+        
+              <div class="service-icon-box">
+                <img src="./assets/images/mobile.png" alt="mobile app icon" width="120">
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile applications</h4>
+        
+                <p class="service-item-text">
+                  Professional application development for iOS and Android.
+                </p>
+              </div>
+        
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-maintenance.png" alt="maintenance icon" width="40">
+                </div>
+          
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Long-term application maintenance</h4>
+          
+                  <p class="service-item-text">
+                    Ensuring continuous maintenance and system optimization.
+                  </p>
+                </div>
+          
+              </li>
+          
+        
+            <li class="service-item">
+        
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-wordpress.png" alt="wordpress icon" width="50">
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">WordPress development</h4>
+        
+                <p class="service-item-text">
+                  Creation and customization of high quality WordPress sites.
+                </p>
+              </div>
+        
+            </li>
+        
+            <li class="service-item">
+        
+              <div class="service-icon-box">
+                <img src="./assets/images/entr.png" alt="entrepreneurship icon" width="50">
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Entrepreneurship</h4>
+        
+                <p class="service-item-text">
+                  Development of creative projects and brand management.
+                </p>
+              </div>
+        
+            </li>
+        
+          </ul>
+        
+        </section>
+        
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Professional Experiences</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/amitech.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Amitech Smart Solutions</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Amitech Smart Solutions is a web and mobile development company. I completed a 5-month internship at this company, where I worked on my graduation project: an educational social network platform dedicated to connecting people in Tunisia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/TM.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>T&M Consulting</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "T&M Consulting, a communication and digital marketing agency based in Paris and Tunisia, where I completed a one-month internship. During this internship, I developed a franchise restaurant platform using WordPress."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/cyber.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Cyber Park Djerba Houmt</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    An integrated environment for the development of small and medium-sized businesses in the Information Technology sector, where I completed a one-month internship. I developed an online web platform called Jobini, designed to connect recruiters with job or internship seekers. This platform manages work requests and recruiters in the cyber field.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Gat.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>GAT Insurance Elhamma</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    GAT Insurance in Elhamma, Gabès: I worked online with this company, working on stock management and online organization using cloud drive and online stock management tools. I also participated in customer and file management, as well as their organization by date, all online.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">January 7, June 12 2024</time>
+              
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+         
+
+          
+
+        </section>
+
+      </article>
+
+     <!-- Resume Section -->
+<article class="resume" data-page="resume">
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+
+  <!-- Education Section -->
+  <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Education</h3>
+    </div>
+    <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">ENET'Com – National Engineering School of Sfax</h4>
+        <span>2023 – Present</span>
+        <p class="timeline-text">
+          Master’s Degree in Telecommunications – Research in ICT.<br>
+          Focus on next-gen networks, cloud systems, embedded electronics, and cybersecurity.
+        </p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">ISET Djerba</h4>
+        <span>2020 – 2023</span>
+        <p class="timeline-text">
+          Bachelor's Degree in Information Technology – Information Systems Development (DSI).<br>
+          Graduated with honors. Final project “AlloProf” won Best Graduation Project 2024.
+        </p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Taher Elhaded High School – Elhamma, Gabès</h4>
+        <span>2017 – 2020</span>
+        <p class="timeline-text">
+          Baccalaureate in Experimental Sciences.
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="briefcase-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Experience</h3>
+    </div>
+    <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">IT Administrator & Insurance Agent</h4>
+        <span>July 2022 – Present</span>
+        <p class="timeline-text">
+          GAT Assurances – Elhamma, Gabès<br>
+          Cloud backups, database support, client communication, remote troubleshooting, and insurance operations.
+        </p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Full-Stack Developer Intern</h4>
+        <span>January 2024 – June 2024</span>
+        <p class="timeline-text">
+          Amitech Smart Solution – Remote (France)<br>
+          Developed the AlloProf e-learning platform using MERN stack. Best Graduation Project 2024.
+        </p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Backend Developer Intern</h4>
+        <span>January 2023 – February 2023</span>
+        <p class="timeline-text">
+          Cyber Parc Djerba – PHP/Laravel developer of a recruitment platform (jobini.unaux.com).
+        </p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Web Developer Intern</h4>
+        <span>January 2022 – February 2022</span>
+        <p class="timeline-text">
+          T&M Consulting – Worked on restauration-franchise.com using WordPress and frontend tools.
+        </p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Retail Operations Intern</h4>
+        <span>July 16 – July 31, 2024</span>
+        <p class="timeline-text">
+          Société Magasin Général – MG PROXI Elhamma<br>
+          Stock reception, cashier, client journey, HR basics, and retail business workflow.
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Certifications Section -->
+<section class="timeline">
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="ribbon-outline"></ion-icon>
+    </div>
+    <h3 class="h3">Certifications</h3>
+  </div>
+
+  <ol class="timeline-list">
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">IEEE Leadership & Technical Training</h4>
+      <span>IEEE Student Branch – ISET Djerba</span>
+      <p class="timeline-text">
+        Technical trainer and General Secretary. Conducted workshops, organized events, and represented the branch internationally.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Entrepreneurship & Innovation Bootcamp</h4>
+      <span>[Organizer Name]</span>
+      <p class="timeline-text">
+        Training in ideation, project planning, and startup launching strategies — from idea to market.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">PHP & Laravel Development</h4>
+      <span>Cyber Parc Djerba</span>
+      <p class="timeline-text">
+        Built a recruitment platform from scratch using PHP, Laravel, and MySQL.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Full-Stack Development Internship</h4>
+      <span>Amitech Smart Solution</span>
+      <p class="timeline-text">
+        Developed the AlloProf web platform using React, Node.js, and MongoDB.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Retail Business Training</h4>
+      <span>MG PROXI – Société Magasin Général</span>
+      <p class="timeline-text">
+        Immersive training in store management, customer service, stock and HR processes.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Cloud & IT Support</h4>
+      <span>GAT Assurances – Elhamma</span>
+      <p class="timeline-text">
+        Oversaw remote system backups, client data, and technical support tasks.
+      </p>
+    </li>
+  </ol>
+</section>
+
+  <!-- Skills -->
+  <section class="skill">
+    <h3 class="h3 skills-title">My Skills</h3>
+    <ul class="skills-list content-card">
+      <li class="skills-item">
+        <div class="title-wrapper"><h5 class="h5">PHP / Laravel</h5><data value="80">80%</data></div>
+        <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 80%;"></div></div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper"><h5 class="h5">HTML / CSS</h5><data value="90">90%</data></div>
+        <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 90%;"></div></div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper"><h5 class="h5">MERN Stack</h5><data value="80">80%</data></div>
+        <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 80%;"></div></div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper"><h5 class="h5">Node.js</h5><data value="50">50%</data></div>
+        <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 50%;"></div></div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper"><h5 class="h5">Flutter</h5><data value="50">50%</data></div>
+        <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 50%;"></div></div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper"><h5 class="h5">React Native</h5><data value="50">50%</data></div>
+        <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 50%;"></div></div>
+      </li>
+    </ul>
+  </section>
+  <!-- Personal Interests Section -->
+<section class="timeline">
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="planet-outline"></ion-icon>
+    </div>
+    <h3 class="h3">Personal Interests</h3>
+  </div>
+
+  <ol class="timeline-list">
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Astronomy & Space Exploration</h4>
+      <span>Ongoing</span>
+      <p class="timeline-text">
+        Deeply passionate about astronomy and astrophysics. I regularly spend time researching space science, exploring new discoveries, and reading articles about the cosmos.
+        This year, I have worked on and contributed to <strong>6 independent articles</strong> covering diverse space-related topics such as black holes, space telescopes, planetary systems, dark matter, and the future of Mars colonization.
+      </p>
+    </li>
+  </ol>
+
+  <!-- Astronomy Image Placeholder -->
+  <figure class="project-img" style="margin-top: 15px;">
+    <div class="project-item-icon-box">
+      <ion-icon name="image-outline"></ion-icon>
+    </div>
+    <img src="./assets/images/astro.jpg" alt="astronomy passion" loading="lazy" style="border-radius: 10px; width: 100%; max-height: 300px; object-fit: cover;">
+  </figure>
+</section>
+
+
+  <!-- Resume PDF download -->
+  <li class="project-item active project-item-small" data-filter-item="formations">
+    <a href="file:///C:/Users/Eya%20Adouni/Downloads/Eya%20CV.pdf">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+        <img src="./assets/images/cv2.jpg" alt="resume preview" loading="lazy">
+      </figure>
+      <h3 class="project-title">DOWNLOAD</h3>
+    </a>
+  </li>
+</article>
+
+
+      <!--
+  - #PORTFOLIO
+-->
+
+<article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Certifications</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+
+      <li class="filter-item">
+        <button class="active" data-filter-btn="all">All</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn="hackathon">Hackathon</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn="trainings">Trainings</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn="activities">Activities</button>
+      </li>
+
+    </ul>
+
+    <div class="filter-select-box">
+
+      <button class="filter-select" data-select>
+
+        <div class="select-value" data-select-value>Select a category</div>
+
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+
+      </button>
+
+      <ul class="select-list">
+
+        <li class="select-item">
+          <button data-select-item="all">All</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item="hackathon">Hackathon</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item="trainings">Trainings</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item="activities">Activities</button>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <ul class="project-list">
+
+      <li class="project-item active" data-filter-item="trainings">
+        <a href="file:///C:/Users/Eya%20Adouni/OneDrive/Desktop/all/uni_docs/certifications/INNOVATION%20CAMP%202023_20240622_0001.pdf">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/inov_camp2023.jpg" alt="finance" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">InJaz Tunisia</h3>
+          <h2 class="project-title">10/25/2023</h2>
+          <p class="project-category">Certificate of participation in the Innovation Camp program</p>
+
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item="hackathon">
+        <a href="file:///C:/Users/Eya%20Adouni/OneDrive/Desktop/all/uni_docs/certifications/HACKATHON%20ENTREPREUNARIAT_20240622_0001.pdf">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/hack_entrepreuneriat.jpg" alt="orizon" loading="lazy">
+          </figure>
+          <h3 class="project-title">SANAD CEED HiLFSWERK</h2>
+          <h3 class="project-title">11/13/2022</h3>
+
+          <p class="project-category">Certificate of participation in the Entrepreneurial Hackathon, and winning 2nd place</p>
+
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item="activities">
+        <a href="file:///C:/Users/Eya%20Adouni/OneDrive/Desktop/all/uni_docs/certifications/AMBASSADRICE%204C_20240622_0001.pdf">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/cAMBASSADRICE 4C_20240622_0001_page-0001.jpg" alt="fundo" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">4C 2022</h3>
+
+          <p class="project-category">AMBASSADOR at the career center and skills certification center during the 2022 academic year</p>
+
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item="hackathon">
+        <a href="file:///C:/Users/Eya%20Adouni/OneDrive/Desktop/all/uni_docs/certifications/HACKATHON%20ODD_20240622_0001.pdf">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/Odd.jpg" alt="brawlhalla" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Hackathon ODD</h3>
+
+          <p class="project-category">Certificate of participation in the ODD HACKATHON with 3rd place under the supervision of Polytech INTL group FRTh</p>
+
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item="activities">
+        <a href="file:///C:/Users/Eya%20Adouni/OneDrive/Desktop/all/uni_docs/certifications/FORMATION%20D'ENTRETIEN%20D'EMBAUCHE%20_20240622_0001.pdf">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/entretien.jpg" alt="dsm." loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Job Interview Workshop</h3>
+          <h2 class="project-title">05/30/2022</h2>
+
+          <p class="project-category">Certificate of participation in the job interview workshop at ISET Djerba with 4C</p>
+
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item="trainings">
+        <a href="file:///C:/Users/Eya%20Adouni/OneDrive/Desktop/all/uni_docs/certifications/INNOVATION%20CAMP%202021_20240622_0001.pdf">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/inov_camp2021.jpg" alt="metaspark" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">INJAZ Tunisia</h3>
+          <h3 class="project-title">11/03/2021</h3>
+
+          <p class="project-category">Certificate of participation in the Innovation Camp 2021 program</p>
+
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item="trainings">
+        <a href="file:///C:/Users/Eya%20Adouni/OneDrive/Desktop/all/uni_docs/certifications/PROG%20INNOVATION%202022_20240622_0001.pdf">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/inov_camp2022.jpg" alt="summary" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">INJAZ Tunisia</h3>
+          <h2 class="project-title">05/08/2022</h2>
+
+          <p class="project-category">Certificate of participation in the Innovation Camp 2022 program</p>
+
+        </a>
+      
+      <li class="project-item active" data-filter-item="hackathon">
+        <a href="file:///C:/Users/Eya%20Adouni/OneDrive/Desktop/all/uni_docs/certifications/HACKATHON%20IOT_20240622_0001.pdf">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/hack_IOT.jpg" alt="task manager" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Hackathon IOT Weekend</h3>
+          <h2 class="project-title">10/08/2023</h2>
+
+          <p class="project-category">Certificate of participation in the IOT Hackathon at ISET Djerba</p>
+
+        </a>
+      </li>
+       <li class="project-item active" data-filter-item="activities">
+        <a href="file:///C:/Users/Eya%20Adouni/OneDrive/Desktop/all/uni_docs/Mes%20Certificats/Certifications%20obtenues/volunteerCertificate.pdf">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/ieeevolunteer.jpg" alt="arrival" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">IEEE Volunteering</h3>
+
+          <p class="project-category">IEEE Volunteering for the mission of GENERAL SECRETARY of our univerisity studentBranch</p>
+
+        </a>
+      </li>
+      <li class="project-item active" data-filter-item="activities">
+        <a href="file:///C:/Users/Eya%20Adouni/OneDrive/Desktop/all/uni_docs/Mes%20Certificats/Certifications%20obtenues/IEEEMemberCertificate%20(1).pdf">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/ieeeyoung.jpg" alt="arrival" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">IEEE</h3>
+
+          <p class="project-category">IEEE Young Professionals |Certificate of membership</p>
+
+        </a>
+      </li>
+      <li class="project-item active" data-filter-item="activities">
+        <a href="file:///C:/Users/Eya%20Adouni/OneDrive/Desktop/all/uni_docs/Mes%20Certificats/Certifications%20obtenues/IEEEMemberCertificate.pdf">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/ieeesec.jpg" alt="arrival" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">IEEE</h3>
+
+          <p class="project-category">2024 Certificate of IEEE Membership </p>
+
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item="activities">
+        <a href="file:///C:/Users/Eya%20Adouni/OneDrive/Desktop/all/uni_docs/Mes%20Certificats/Certifications%20obtenues/IEEE.PDF">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/ieee1.jpg" alt="arrival" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">IEEE</h3>
+
+          <p class="project-category">IEEE Members archieve great things</p>
+
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/alloprof.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">MERN web application</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">June, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Alloprof "Educational World"</h3>
+
+                  <p class="blog-text">
+                    An educational social network that connects students with teachers and companies, while providing parental supervision for minors.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/jobini.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">PHP web application</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">February, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Jobini 'Find your Job'</h3>
+
+                  <p class="blog-text">
+                    A platform dedicated to recruiters and job seekers as well as internships for the CyberPrak Djerba company.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://restauration-franchise.com/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/restau.png" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">WORDPRESS web application</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">February, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Franchise Restaurant</h3>
+
+                  <p class="blog-text">
+                    A franchise restaurant that serves to present the most famous dishes in the world from different countries and cultures.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/logos.png" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Logo Creation</h3>
+
+                  <p class="blog-text">
+                    Creation of brand logos and various modifications.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/affiche.png" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Present</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">🎨 Behind the Design: My Creative Process for Event Posters
+</h3>
+
+                  <p class="blog-text">
+A glimpse into how I craft custom visuals for brands during festivals and special events — from concept to final design. Each poster tells a story, blending identity, color, and purpose.                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/astro2.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Present</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">🌌 Code & Cosmos: My Journey Into Astronomy
+</h3>
+
+                  <p class="blog-text">
+Beyond software and systems, I’ve always been fascinated by the stars. During my university years, I explored this passion through small tech projects related to astronomy — blending curiosity, science, and code.
+
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9007.157012631284!2d9.775200668849365!3d33.88748188124826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12559b9794381f1d%3A0xb0a418cc18c6767c!2sEl%20Hamma!5e0!3m2!1sfr!2stn!4v1719244590878!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+   <section class="contact-form">
+
+  <h3 class="h3 form-title">Contact Form</h3>
+  <p style="color: white;"><strong>Feel free to contact me here — I will personally receive your email and get back to you shortly.</strong></p>
+
+  <form action="https://formspree.io/f/manbyyel" method="POST" class="form" onsubmit="return handleSubmit(event)">
+
+    <div class="input-wrapper">
+      <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+
+      <input type="email" name="email" class="form-input" placeholder="Email address" required>
+    </div>
+
+    <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+
+    <button class="form-btn" type="submit">
+      <ion-icon name="paper-plane"></ion-icon>
+      <span>Send Message</span>
+    </button>
+
+  </form>
+
+</section>
+
+<script>
+  function handleSubmit(event) {
+    // Prevent form from redirecting immediately
+    event.preventDefault();
+
+    // Send form data to Formspree
+    const form = event.target;
+    const data = new FormData(form);
+
+    fetch(form.action, {
+      method: "POST",
+      body: data,
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        alert("✅ Thank you! I’ve received your message and will contact you soon.");
+        form.reset();
+      } else {
+        alert("⚠️ Oops! Something went wrong. Please try again.");
+      }
+    });
+
+    return false;
+  }
+</script>
+
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js lin
+
+    - custom js link
+  -->
+<script src="./assets/js/script.js"></script>
+
+<!-- ionicon link -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!-- Improved script with error handling -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Portfolio Filter Functionality
+    try {
+      const filterButtons = document.querySelectorAll('[data-filter-btn]');
+      const filterItems = document.querySelectorAll('[data-filter-item]');
+
+      if (filterButtons.length && filterItems.length) {
+        filterButtons.forEach(button => {
+          button.addEventListener('click', function() {
+            const category = this.getAttribute('data-filter-btn');
+            
+            // Update active state
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+            
+            // Filter items
+            filterItems.forEach(item => {
+              if (category === 'all' || item.getAttribute('data-filter-item') === category) {
+                item.style.display = 'block';
+              } else {
+                item.style.display = 'none';
+              }
+            });
+          });
+        });
+      }
+    } catch (error) {
+      console.error('Filter functionality error:', error);
+    }
+
+    // Theme Toggle Functionality
+    try {
+      const themeToggle = document.querySelector('.theme-toggle');
+      const lightIcon = document.querySelector('.light-icon');
+      const darkIcon = document.querySelector('.dark-icon');
+
+      if (themeToggle && lightIcon && darkIcon) {
+        // Check for saved theme preference
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        if (savedTheme === 'dark') {
+          document.body.classList.add('dark-mode');
+          lightIcon.style.opacity = '0';
+          darkIcon.style.opacity = '1';
+        } else {
+          document.body.classList.remove('dark-mode');
+          lightIcon.style.opacity = '1';
+          darkIcon.style.opacity = '0';
+        }
+
+        // Toggle Theme
+        themeToggle.addEventListener('click', () => {
+          document.body.classList.toggle('dark-mode');
+          
+          if (document.body.classList.contains('dark-mode')) {
+            localStorage.setItem('theme', 'dark');
+            lightIcon.style.opacity = '0';
+            darkIcon.style.opacity = '1';
+          } else {
+            localStorage.setItem('theme', 'light');
+            lightIcon.style.opacity = '1';
+            darkIcon.style.opacity = '0';
+          }
+        });
+      }
+    } catch (error) {
+      console.error('Theme toggle error:', error);
+    }
+  });
+</script>
+
+</body>
+
+</html>
